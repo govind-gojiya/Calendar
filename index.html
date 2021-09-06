@@ -13,7 +13,7 @@
 
 <body>
     <center>
-        <img src="image/logo-of-ieee.jfif" alt="Logo Of IEEE" class="img-fluid" />
+        <img src="./image/IEEE-01.png" alt="Logo Of IEEE" class="img-fluid" id="Logo" />
     </center>
     <div class="header">
         <div id="calendar"></div>
@@ -27,7 +27,7 @@
             e.preventDefault();
         });
 
-        document.onkeydown = function(e) {
+        document.onkeydown = function (e) {
             if (event.keyCode == 123) {
                 return false;
             }
@@ -45,7 +45,7 @@
             }
         };
 
-        $(document).ready(function() {
+        $(document).ready(function () {
             $("#calendar").evoCalendar({
                 theme: "Midnight Blue",
 
@@ -757,7 +757,7 @@
                     date: "December/25/2021",
                     type: "holiday",
                     everyYear: true,
-                }, ],
+                },],
             });
         });
     </script>
