@@ -202,7 +202,7 @@
 }
 
 .midnight-blue .event-container:hover {
-  background-color: #d8d7d7;
+  background-color: #e9e8e880;
 }
 
 .midnight-blue .event-container > .event-icon > div {
@@ -276,7 +276,7 @@
     box-shadow: 0 3px 8px -3px rgba(0, 0, 0, 0.65);
   }
   .midnight-blue .calendar-sidebar > .month-list {
-    background-color: #192435;
+    background-color: #e9e8e8;
   }
   .midnight-blue .calendar-sidebar > span#sidebarToggler {
     right: 0;

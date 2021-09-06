@@ -407,9 +407,9 @@ tr.calendar-body .calendar-day .day[disabled] {
 }
 
 .event-container:hover {
-  background-color: #fff;
-  -webkit-box-shadow: 0 3px 12px -4px rgba(0, 0, 0, 0.65);
-  box-shadow: 0 3px 12px -4px rgba(0, 0, 0, 0.65);
+  background-color: rgba(255, 255, 255, 0.164);
+  -webkit-box-shadow: 0 1px 12px -6px rgba(0, 0, 0, 0.65);
+  box-shadow: 0 1px 12px -6px rgba(0, 0, 0, 0.65);
 }
 
 .event-container > .event-icon {
